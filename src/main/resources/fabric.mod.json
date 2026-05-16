@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "daily_ender_chest_claims",
+  "version": "${version}",
+  "name": "Daily Ender Chest Claims",
+  "description": "Adds /claim ec ender chest rewards with a real-life daily limit and one-player sleep.",
+  "authors": [
+    "NILL"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.nill.dailyenderchestclaims.DailyEnderChestClaimsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "1.21.11",
+    "fabric-api": ">=0.141.3+1.21.11"
+  }
+}
